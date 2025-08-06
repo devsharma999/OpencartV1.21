@@ -10,7 +10,7 @@ C:\Users\softm\eclipse-workspace\OpencartV1.21\src\test\java\TestCases\TC002_Log
 C:\Users\softm\eclipse-workspace\OpencartV1.21\src\test\java\TestCases\TC003_DDTTest.java
 C:\Users\softm\eclipse-workspace\OpencartV1.21\src\test\java\TestCases\TC004_SearchingTest.java
 C:\Users\softm\eclipse-workspace\OpencartV1.21\src\test\java\TestCases\TC005_AddToCartTest.java
-C:\Users\softm\eclipse-workspace\OpencartV1.21\src\test\java\TestCases\TC006_CurrencyTest.java
+C:\Users\softm\eclipse-workspace\OpencartV1.21\src\test\java\TestCases\TC006_CurrencyChangeTest.java
 C:\Users\softm\eclipse-workspace\OpencartV1.21\src\test\java\Utilities\DataProviders.java
 C:\Users\softm\eclipse-workspace\OpencartV1.21\src\test\java\Utilities\ExcelUtility.java
 C:\Users\softm\eclipse-workspace\OpencartV1.21\src\test\java\Utilities\ExtentManagerUtility.java

@@ -25,7 +25,7 @@ public class TC003_DDTTest extends BaseTest {
 
 		// LoginPage
 		LoginPage lp = new LoginPage(driver);
-		logger.info("Filling Out Valid Login Details");
+		logger.info("Filling Out "+exp+ "Login Details");
 		lp.setEmail(usrname);
 		lp.setPassword(pwd);
 		lp.clickLogin();

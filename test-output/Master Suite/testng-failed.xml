@@ -9,17 +9,17 @@
     <parameter name="browser" value="edge"/>
     <groups>
       <run>
-        <include name="tc005"/>
+        <include name="tc006"/>
       </run>
     </groups>
     <classes>
-      <class name="TestCases.TC005_AddToCartTest">
+      <class name="TestCases.TC006_CurrencyChangeTest">
         <methods>
           <include name="teardown"/>
-          <include name="addtoCartVerfication"/>
+          <include name="currencyTest"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- TestCases.TC005_AddToCartTest -->
+      </class> <!-- TestCases.TC006_CurrencyChangeTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

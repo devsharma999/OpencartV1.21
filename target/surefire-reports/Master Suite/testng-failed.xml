@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Master Suite]">
+<suite name="Failed suite [Master Suite]" verbose="0">
   <listeners>
     <listener class-name="Utilities.ExtentManagerUtility"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
-    <parameter name="OS" value="Window"/>
-    <parameter name="browser" value="edge"/>
-    <groups>
-      <run>
-        <include name="tc006"/>
-      </run>
-    </groups>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <parameter name="OS" value="window"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="TestCases.TC006_CurrencyChangeTest">
         <methods>
           <include name="teardown"/>
-          <include name="currencyTest"/>
           <include name="setUp"/>
+          <include name="currencyTest"/>
         </methods>
       </class> <!-- TestCases.TC006_CurrencyChangeTest -->
     </classes>

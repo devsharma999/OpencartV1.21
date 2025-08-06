@@ -12,10 +12,12 @@ public class TC004_SearchingTest extends BaseTest {
 	public void search() {
 		logger.info("*-*-*-*-* Starting TC004_SearchingTest *-*-*-*-*");
 		try {
-			//logger.info("Searching for product as mentioned by Devlopers");
+			logger.info("Searching for product as mentioned by Devlopers");
 			HomePage hp = new HomePage(driver);
-			hp.setSearch("i phone");
-			Assert.assertTrue(hp.confirmationSearch("i phone"));
+			String productA = p.getProperty("product");
+			hp.setSearch(productA);
+			Assert.assertTrue(hp.confirmationSearch(productA));
+			logger.info("Searched"+productA);
 		} catch (Exception e) {
 			logger.error("Test Failed", e);
 			Assert.fail();
