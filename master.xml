@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Master Suite">
+
+<listeners>
+    <listener class-name="Utilities.ExtentManagerUtility"/>
+</listeners>
+
+  <test name="Test" thread-count ="4" >  
+  <parameter name = "OS" value = "window"></parameter>
+    <parameter name = "browser" value = "chrome"></parameter>
+    <classes>
+      <class name="TestCases.TC001_AccountRegistrationTest"/>
+      <class name="TestCases.TC002_LoginTest"/>
+       <class name="TestCases.TC003_DDTTest"/>
+        <class name="TestCases.TC004_SearchingTest"/>
+		<class name="TestCases.TC005_AddToCartTest"/>
+
+    </classes>
+    </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Master Suite]">
+  <listeners>
+    <listener class-name="Utilities.ExtentManagerUtility"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="OS" value="Window"/>
+    <parameter name="browser" value="edge"/>
+    <groups>
+      <run>
+        <include name="tc005"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestCases.TC005_AddToCartTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="addtoCartVerfication"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestCases.TC005_AddToCartTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Master Suite] -->
