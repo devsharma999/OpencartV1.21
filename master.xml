@@ -14,6 +14,7 @@
        <class name="TestCases.TC003_DDTTest"/>
         <class name="TestCases.TC004_SearchingTest"/>
 		<class name="TestCases.TC005_AddToCartTest"/>
+			<class name="TestCases.TC006_CurrencyTest"/>
 
     </classes>
     </test> <!-- Test -->
