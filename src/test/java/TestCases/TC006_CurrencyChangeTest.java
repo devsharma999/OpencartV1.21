@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import PageObjets.HomePage;
 import TestBase.BaseTest;
+import Utilities.SepratorUtility;
 
 public class TC006_CurrencyChangeTest extends BaseTest {
 	@Test(groups = "tc006")
@@ -33,7 +34,8 @@ public class TC006_CurrencyChangeTest extends BaseTest {
 			logger.error("Broken XPath or Missing Element: " + e.getMessage());
 			softAssert.fail("Exception occurred during test: " + e.getMessage());
 		}
-
+		logger.info("*-*-*-*-* Finishing TC006_CurrencyChangeTest *-*-*-*-*");
+		SepratorUtility.logTestSeparator(logger);
 		// This will report all failures at once
 		softAssert.assertAll();
 	}

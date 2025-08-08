@@ -3,6 +3,8 @@ package PageObjets;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 
+import TestBase.BasePage;
+
 public class ResultPage extends BasePage {
 
 	public ResultPage(WebDriver driver) {
@@ -11,9 +13,16 @@ public class ResultPage extends BasePage {
 
 	@FindBy(xpath = "//span[normalize-space()='Add to Cart']")
 	WebElement btn_addtocart;
+	@FindBy(xpath = "//span[normalize-space()='Checkout']")
+	WebElement btn_checkout;
+	
 
 	public void clickAddtocart() {
 		btn_addtocart.click();
+	}
+	
+	public void clickCheckout() {
+		btn_checkout.click();
 	}
 
 	public boolean confirmationAddtoCart(String product) {
@@ -33,5 +42,4 @@ public class ResultPage extends BasePage {
 		}
 	}
 }
-
 

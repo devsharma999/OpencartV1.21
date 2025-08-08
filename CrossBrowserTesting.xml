@@ -12,6 +12,12 @@
 
     <classes>
       <class name="TestCases.TC001_AccountRegistrationTest"/>
+       <class name="TestCases.TC002_LoginTest"/>
+       <class name="TestCases.TC003_DDTTest"/>
+        <class name="TestCases.TC004_SearchingTest"/>
+		<class name="TestCases.TC005_AddToCartTest"/>
+			<class name="TestCases.TC006_CurrencyChangeTest"/>
+			<class name="TestCases.TC007_EndToEndTest"/>
     </classes>
      </test> <!-- Test -->
      
@@ -23,6 +29,12 @@
 
     <classes>
       <class name="TestCases.TC001_AccountRegistrationTest"/>
+       <class name="TestCases.TC002_LoginTest"/>
+       <class name="TestCases.TC003_DDTTest"/>
+        <class name="TestCases.TC004_SearchingTest"/>
+		<class name="TestCases.TC005_AddToCartTest"/>
+			<class name="TestCases.TC006_CurrencyChangeTest"/>
+			<class name="TestCases.TC007_EndToEndTest"/>
     </classes>
      </test> <!-- Test -->
      

@@ -8,13 +8,13 @@
     <parameter name="OS" value="window"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="TestCases.TC006_CurrencyChangeTest">
+      <class name="TestCases.TC007_EndToEndTest">
         <methods>
           <include name="teardown"/>
+          <include name="endToEndTesting"/>
           <include name="setUp"/>
-          <include name="currencyTest"/>
         </methods>
-      </class> <!-- TestCases.TC006_CurrencyChangeTest -->
+      </class> <!-- TestCases.TC007_EndToEndTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->
