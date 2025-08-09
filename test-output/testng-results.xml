@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="7" passed="1" failed="0" skipped="0">
+<testng-results ignored="7" total="8" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-08T13:15:38 IST" name="Master Suite" finished-at="2025-08-08T13:15:49 IST" duration-ms="10939">
+  <suite started-at="2025-08-09T11:37:25 IST" name="Master Suite" finished-at="2025-08-09T11:37:35 IST" duration-ms="9620">
     <groups>
-      <group name="tc007">
-        <method signature="TC007_EndToEndTest.endToEndTesting()[pri:0, instance:TestCases.TC007_EndToEndTest@77c2494c]" name="endToEndTesting" class="TestCases.TC007_EndToEndTest"/>
-      </group> <!-- tc007 -->
+      <group name="tc008">
+        <method signature="TC008_WishListTest.wishListTesting()[pri:0, instance:TestCases.TC008_WishListTest@185a6e9]" name="wishListTesting" class="TestCases.TC008_WishListTest"/>
+      </group> <!-- tc008 -->
     </groups>
-    <test started-at="2025-08-08T13:15:38 IST" name="Test" finished-at="2025-08-08T13:15:49 IST" duration-ms="10939">
-      <class name="TestCases.TC007_EndToEndTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC007_EndToEndTest@77c2494c]" started-at="2025-08-08T13:15:38 IST" name="setUp" finished-at="2025-08-08T13:15:41 IST" duration-ms="2872" status="PASS">
+    <test started-at="2025-08-09T11:37:25 IST" name="Test" finished-at="2025-08-09T11:37:35 IST" duration-ms="9620">
+      <class name="TestCases.TC008_WishListTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC008_WishListTest@185a6e9]" started-at="2025-08-09T11:37:25 IST" name="setUp" finished-at="2025-08-09T11:37:28 IST" duration-ms="3331" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -19,22 +19,22 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="endToEndTesting()[pri:0, instance:TestCases.TC007_EndToEndTest@77c2494c]" started-at="2025-08-08T13:15:41 IST" name="endToEndTesting" finished-at="2025-08-08T13:15:48 IST" duration-ms="6324" status="PASS">
+        <test-method signature="wishListTesting()[pri:0, instance:TestCases.TC008_WishListTest@185a6e9]" started-at="2025-08-09T11:37:28 IST" name="wishListTesting" finished-at="2025-08-09T11:37:34 IST" duration-ms="5726" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- endToEndTesting -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.TC007_EndToEndTest@77c2494c]" started-at="2025-08-08T13:15:48 IST" name="teardown" finished-at="2025-08-08T13:15:49 IST" duration-ms="1395" status="PASS">
+        </test-method> <!-- wishListTesting -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.TC008_WishListTest@185a6e9]" started-at="2025-08-09T11:37:34 IST" name="teardown" finished-at="2025-08-09T11:37:35 IST" duration-ms="292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- TestCases.TC007_EndToEndTest -->
+      </class> <!-- TestCases.TC008_WishListTest -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>

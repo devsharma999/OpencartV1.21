@@ -6,20 +6,20 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <parameter name="OS" value="Window"/>
-    <parameter name="browser" value="edge"/>
+    <parameter name="browser" value="chrome"/>
     <groups>
       <run>
-        <include name="tc007"/>
+        <include name="tc008"/>
       </run>
     </groups>
     <classes>
-      <class name="TestCases.TC007_EndToEndTest">
+      <class name="TestCases.TC008_WishListTest">
         <methods>
           <include name="teardown"/>
-          <include name="endToEndTesting"/>
+          <include name="wishListTesting"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- TestCases.TC007_EndToEndTest -->
+      </class> <!-- TestCases.TC008_WishListTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

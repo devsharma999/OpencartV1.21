@@ -16,6 +16,7 @@
 		<class name="TestCases.TC005_AddToCartTest"/>
 			<class name="TestCases.TC006_CurrencyChangeTest"/>
 			<class name="TestCases.TC007_EndToEndTest"/>
+			<class name="TestCases.TC008_WishListTest"/>
 
 
     </classes>

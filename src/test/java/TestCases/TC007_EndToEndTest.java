@@ -99,8 +99,9 @@ public class TC007_EndToEndTest extends BaseTest {
 		}
 		logger.info("Now Checking Out The Product selected");
 		try {
-			ResultPage rp = new ResultPage(driver);
-			rp.clickCheckout();
+			ResultPage rp1 = new ResultPage(driver);
+			Thread.sleep(2000);
+			rp1.clickCheckout();
 			CheckOutPage cop = new CheckOutPage(driver);
 			cop.clickCheckout();
 			Assert.assertTrue(cop.confirmationCheckout());

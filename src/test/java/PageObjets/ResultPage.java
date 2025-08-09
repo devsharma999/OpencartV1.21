@@ -15,14 +15,25 @@ public class ResultPage extends BasePage {
 	WebElement btn_addtocart;
 	@FindBy(xpath = "//span[normalize-space()='Checkout']")
 	WebElement btn_checkout;
+    @FindBy(xpath = "//button[@type='button']//i[@class='fa fa-heart']")
+    WebElement btn_WLheart;
+	@FindBy(xpath = "//a[normalize-space()='wish list']")
+    WebElement btn_wishlist;
 	
-
 	public void clickAddtocart() {
 		btn_addtocart.click();
 	}
 	
 	public void clickCheckout() {
 		btn_checkout.click();
+	}
+	
+	public void clickHeart() {
+		btn_WLheart.click();
+	}
+	
+	public void clickWishList() {
+		btn_wishlist.click();
 	}
 
 	public boolean confirmationAddtoCart(String product) {

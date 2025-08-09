@@ -30,7 +30,7 @@ public class BaseTest {
 	public Properties p;
 
 	@Parameters({ "OS", "browser" })
-	@BeforeClass(groups = { "regression", "datadrivern", "sanity", "Master","tc004","tc005","tc006","tc007" })
+	@BeforeClass(groups = { "regression", "datadrivern", "sanity", "Master","tc004","tc005","tc006","tc007","tc008" })
 	public void setUp(String os, String br) throws IOException {
 		FileReader file = new FileReader("./src//test//resources//config.properties");
 
@@ -88,12 +88,12 @@ public class BaseTest {
 		}
 
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get(p.getProperty("appURL")); // Reading From Property File...
 		driver.manage().window().maximize();
 	}
 
-	@AfterClass(groups = { "regression", "datadrivern", "sanity", "Master","tc004" ,"tc005","tc006","tc007"})
+	@AfterClass(groups = { "regression", "datadrivern", "sanity", "Master","tc004" ,"tc005","tc006","tc007","tc008"})
 	public void teardown() {
 		driver.quit();
 	}

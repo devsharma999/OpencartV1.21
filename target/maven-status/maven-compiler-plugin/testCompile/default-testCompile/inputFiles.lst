@@ -4,6 +4,7 @@ C:\Users\softm\eclipse-workspace\OpencartV1.21\src\test\java\PageObjets\HomePage
 C:\Users\softm\eclipse-workspace\OpencartV1.21\src\test\java\PageObjets\LoginPage.java
 C:\Users\softm\eclipse-workspace\OpencartV1.21\src\test\java\PageObjets\MyAccountPage.java
 C:\Users\softm\eclipse-workspace\OpencartV1.21\src\test\java\PageObjets\ResultPage.java
+C:\Users\softm\eclipse-workspace\OpencartV1.21\src\test\java\PageObjets\WishListPage.java
 C:\Users\softm\eclipse-workspace\OpencartV1.21\src\test\java\TestBase\BasePage.java
 C:\Users\softm\eclipse-workspace\OpencartV1.21\src\test\java\TestBase\BaseTest.java
 C:\Users\softm\eclipse-workspace\OpencartV1.21\src\test\java\TestCases\TC001_AccountRegistrationTest.java
@@ -13,6 +14,7 @@ C:\Users\softm\eclipse-workspace\OpencartV1.21\src\test\java\TestCases\TC004_Sea
 C:\Users\softm\eclipse-workspace\OpencartV1.21\src\test\java\TestCases\TC005_AddToCartTest.java
 C:\Users\softm\eclipse-workspace\OpencartV1.21\src\test\java\TestCases\TC006_CurrencyChangeTest.java
 C:\Users\softm\eclipse-workspace\OpencartV1.21\src\test\java\TestCases\TC007_EndToEndTest.java
+C:\Users\softm\eclipse-workspace\OpencartV1.21\src\test\java\TestCases\TC008_WishListTest.java
 C:\Users\softm\eclipse-workspace\OpencartV1.21\src\test\java\Utilities\DataProviders.java
 C:\Users\softm\eclipse-workspace\OpencartV1.21\src\test\java\Utilities\ExcelUtility.java
 C:\Users\softm\eclipse-workspace\OpencartV1.21\src\test\java\Utilities\ExtentManagerUtility.java

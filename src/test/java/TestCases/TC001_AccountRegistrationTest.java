@@ -13,7 +13,7 @@ public class TC001_AccountRegistrationTest extends BaseTest {
 	
 
 	@Test(groups = {"regression","Master"})
-	public void register() {
+	public  void register() {
 		logger.info("*-*-*-*-* Starting TC001_AccountRegistrationTest *-*-*-*-*");
 		try {
 		HomePage hp = new HomePage(driver);

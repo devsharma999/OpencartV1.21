@@ -1,96 +1,103 @@
-13:16:58.486 [main] INFO  TestCases.TC001_AccountRegistrationTest - *-*-*-*-* Starting TC001_AccountRegistrationTest *-*-*-*-*
-13:16:59.253 [main] INFO  TestCases.TC001_AccountRegistrationTest - Clicked On MyAccount
-13:16:59.711 [main] INFO  TestCases.TC001_AccountRegistrationTest - Clicked On Register
-13:16:59.715 [main] INFO  TestCases.TC001_AccountRegistrationTest - Providing Customer Details
-13:17:01.492 [main] INFO  TestCases.TC001_AccountRegistrationTest - Validating Expected Message
-13:17:01.535 [main] INFO  TestCases.TC001_AccountRegistrationTest - Confirmation Message: Your Account Has Been Created!
-13:17:01.557 [main] INFO  TestCases.TC001_AccountRegistrationTest - *-*-*-*-* Finished TC001_AccountRegistrationTest *-*-*-*-*
-13:17:01.558 [main] INFO  TestCases.TC001_AccountRegistrationTest - -------------------------------------------------------------------------
-13:17:04.270 [main] INFO  TestCases.TC002_LoginTest - *-*-*-*-*-* Starting TC002_LoginTest *-*-*-*-*-*
-13:17:04.897 [main] INFO  TestCases.TC002_LoginTest - Clicked On MyAccount
-13:17:05.267 [main] INFO  TestCases.TC002_LoginTest - Clicked On Login
-13:17:05.269 [main] INFO  TestCases.TC002_LoginTest - Filling Out Valid Login Details
-13:17:06.418 [main] INFO  TestCases.TC002_LoginTest - Clicked On Login_Button
-13:17:06.477 [main] INFO  TestCases.TC002_LoginTest - *-*-*-*-*-* Finished TC002_LoginTest *-*-*-*-*-*
-13:17:06.478 [main] INFO  TestCases.TC002_LoginTest - -------------------------------------------------------------------------
-13:17:09.181 [main] INFO  TestCases.TC003_DDTTest - *-*-*-*-*-* Starting TC003_DDTTesting *-*-*-*-*-*
-13:17:09.765 [main] INFO  TestCases.TC003_DDTTest - Clicked On MyAccount
-13:17:10.073 [main] INFO  TestCases.TC003_DDTTest - Clicked On Login
-13:17:10.074 [main] INFO  TestCases.TC003_DDTTest - Filling Out validLogin Details
-13:17:10.309 [main] INFO  TestCases.TC003_DDTTest - Clicked On Login_Button
-13:17:12.021 [main] INFO  TestCases.TC003_DDTTest - *-*-*-*-*-* Finished TC003_DDTTesting *-*-*-*-*-*
-13:17:12.021 [main] INFO  TestCases.TC003_DDTTest - -------------------------------------------------------------------------
-13:17:12.022 [main] INFO  TestCases.TC003_DDTTest - *-*-*-*-*-* Starting TC003_DDTTesting *-*-*-*-*-*
-13:17:12.088 [main] INFO  TestCases.TC003_DDTTest - Clicked On MyAccount
-13:17:12.510 [main] INFO  TestCases.TC003_DDTTest - Clicked On Login
-13:17:12.511 [main] INFO  TestCases.TC003_DDTTest - Filling Out validLogin Details
-13:17:13.793 [main] INFO  TestCases.TC003_DDTTest - Clicked On Login_Button
-13:17:14.324 [main] INFO  TestCases.TC003_DDTTest - *-*-*-*-*-* Finished TC003_DDTTesting *-*-*-*-*-*
-13:17:14.324 [main] INFO  TestCases.TC003_DDTTest - -------------------------------------------------------------------------
-13:17:14.326 [main] INFO  TestCases.TC003_DDTTest - *-*-*-*-*-* Starting TC003_DDTTesting *-*-*-*-*-*
-13:17:14.399 [main] INFO  TestCases.TC003_DDTTest - Clicked On MyAccount
-13:17:14.744 [main] INFO  TestCases.TC003_DDTTest - Clicked On Login
-13:17:14.744 [main] INFO  TestCases.TC003_DDTTest - Filling Out invalidLogin Details
-13:17:14.940 [main] INFO  TestCases.TC003_DDTTest - Clicked On Login_Button
-13:17:19.997 [main] INFO  TestCases.TC003_DDTTest - *-*-*-*-*-* Finished TC003_DDTTesting *-*-*-*-*-*
-13:17:19.997 [main] INFO  TestCases.TC003_DDTTest - -------------------------------------------------------------------------
-13:17:20.006 [main] INFO  TestCases.TC003_DDTTest - *-*-*-*-*-* Starting TC003_DDTTesting *-*-*-*-*-*
-13:17:20.133 [main] INFO  TestCases.TC003_DDTTest - Clicked On MyAccount
-13:17:20.456 [main] INFO  TestCases.TC003_DDTTest - Clicked On Login
-13:17:20.456 [main] INFO  TestCases.TC003_DDTTest - Filling Out invalidLogin Details
-13:17:20.759 [main] INFO  TestCases.TC003_DDTTest - Clicked On Login_Button
-13:17:26.447 [main] INFO  TestCases.TC003_DDTTest - *-*-*-*-*-* Finished TC003_DDTTesting *-*-*-*-*-*
-13:17:26.447 [main] INFO  TestCases.TC003_DDTTest - -------------------------------------------------------------------------
-13:17:26.449 [main] INFO  TestCases.TC003_DDTTest - *-*-*-*-*-* Starting TC003_DDTTesting *-*-*-*-*-*
-13:17:26.544 [main] INFO  TestCases.TC003_DDTTest - Clicked On MyAccount
-13:17:27.048 [main] INFO  TestCases.TC003_DDTTest - Clicked On Login
-13:17:27.048 [main] INFO  TestCases.TC003_DDTTest - Filling Out invalidLogin Details
-13:17:27.955 [main] INFO  TestCases.TC003_DDTTest - Clicked On Login_Button
-13:17:33.016 [main] INFO  TestCases.TC003_DDTTest - *-*-*-*-*-* Finished TC003_DDTTesting *-*-*-*-*-*
-13:17:33.017 [main] INFO  TestCases.TC003_DDTTest - -------------------------------------------------------------------------
-13:17:33.028 [main] INFO  TestCases.TC003_DDTTest - *-*-*-*-*-* Starting TC003_DDTTesting *-*-*-*-*-*
-13:17:33.178 [main] INFO  TestCases.TC003_DDTTest - Clicked On MyAccount
-13:17:33.716 [main] INFO  TestCases.TC003_DDTTest - Clicked On Login
-13:17:33.716 [main] INFO  TestCases.TC003_DDTTest - Filling Out invalidLogin Details
-13:17:34.530 [main] INFO  TestCases.TC003_DDTTest - Clicked On Login_Button
-13:17:39.589 [main] INFO  TestCases.TC003_DDTTest - *-*-*-*-*-* Finished TC003_DDTTesting *-*-*-*-*-*
-13:17:39.589 [main] INFO  TestCases.TC003_DDTTest - -------------------------------------------------------------------------
-13:17:42.270 [main] INFO  TestCases.TC004_SearchingTest - *-*-*-*-* Starting TC004_SearchingTest *-*-*-*-*
-13:17:42.270 [main] INFO  TestCases.TC004_SearchingTest - Searching for product as mentioned by Devlopers
-13:17:42.719 [main] INFO  TestCases.TC004_SearchingTest - SearchediPhone
-13:17:42.720 [main] INFO  TestCases.TC004_SearchingTest - *-*-*-*-* Finishing TC004_SearchingTest *-*-*-*-*
-13:17:42.720 [main] INFO  TestCases.TC004_SearchingTest - -------------------------------------------------------------------------
-13:17:45.058 [main] INFO  TestCases.TC005_AddToCartTest - *-*-*-*-* Starting TC005_AddToCartTest *-*-*-*-*
-13:17:45.058 [main] INFO  TestCases.TC005_AddToCartTest - Searching for product as mentioned by Devlopers
-13:17:45.460 [main] INFO  TestCases.TC005_AddToCartTest - Adding To Cart
-13:17:45.859 [main] INFO  TestCases.TC005_AddToCartTest - *-*-*-*-* Finishing TC005_AddToCartTest *-*-*-*-*
-13:17:45.859 [main] INFO  TestCases.TC005_AddToCartTest - -------------------------------------------------------------------------
-13:17:48.072 [main] INFO  TestCases.TC006_CurrencyChangeTest - *-*-*-*-* Starting TC006_CurrencyChangeTest *-*-*-*-*
-13:17:48.075 [main] INFO  TestCases.TC006_CurrencyChangeTest - Checking Euro Currency
-13:17:49.384 [main] INFO  TestCases.TC006_CurrencyChangeTest - Checking Pound Currency
-13:17:50.022 [main] INFO  TestCases.TC006_CurrencyChangeTest - Checking USD Currency
-13:17:50.633 [main] INFO  TestCases.TC006_CurrencyChangeTest - *-*-*-*-* Finishing TC006_CurrencyChangeTest *-*-*-*-*
-13:17:50.634 [main] INFO  TestCases.TC006_CurrencyChangeTest - -------------------------------------------------------------------------
-13:17:52.893 [main] INFO  TestCases.TC007_EndToEndTest - *-*-*-*-* Starting TC007_EndToEndTest *-*-*-*-*
-13:17:52.894 [main] INFO  TestCases.TC007_EndToEndTest - Registering Customer
-13:17:53.398 [main] INFO  TestCases.TC007_EndToEndTest - Clicked On MyAccount
-13:17:53.932 [main] INFO  TestCases.TC007_EndToEndTest - Clicked On Register
-13:17:53.932 [main] INFO  TestCases.TC007_EndToEndTest - Providing Customer Details
-13:17:54.064 [main] INFO  TestCases.TC007_EndToEndTest - Registering Customer with this mail--->XWCVYMY@gmail.com
-13:17:54.064 [main] INFO  TestCases.TC007_EndToEndTest - PassWord is--->930jqK
-13:17:55.258 [main] INFO  TestCases.TC007_EndToEndTest - Validating Expected Message
-13:17:55.292 [main] INFO  TestCases.TC007_EndToEndTest - Confirmation Message: Your Account Has Been Created!
-13:17:55.307 [main] INFO  TestCases.TC007_EndToEndTest - LoggingOut Customer
-13:17:55.945 [main] INFO  TestCases.TC007_EndToEndTest - Logging in with same credential that has been just used while Regestring
-13:17:55.989 [main] INFO  TestCases.TC007_EndToEndTest - Clicked On MyAccount
-13:17:56.423 [main] INFO  TestCases.TC007_EndToEndTest - Clicked On Login
-13:17:56.423 [main] INFO  TestCases.TC007_EndToEndTest - Filling Login Details
-13:17:57.425 [main] INFO  TestCases.TC007_EndToEndTest - Clicked On Login_Button
-13:17:57.463 [main] INFO  TestCases.TC007_EndToEndTest - Login Successfull
-13:17:57.463 [main] INFO  TestCases.TC007_EndToEndTest - Now Searching For Product Which is Available
-13:17:57.463 [main] INFO  TestCases.TC007_EndToEndTest - Searching for product as mentioned by Devlopers
-13:17:57.870 [main] INFO  TestCases.TC007_EndToEndTest - SearchediPhone
-13:17:57.893 [main] INFO  TestCases.TC007_EndToEndTest - Adding To Cart
-13:17:58.232 [main] INFO  TestCases.TC007_EndToEndTest - Now Checking Out The Product selected
-13:17:59.263 [main] INFO  TestCases.TC007_EndToEndTest - *-*-*-*-* Finishing TC007_EndToEndTest *-*-*-*-*
-13:17:59.263 [main] INFO  TestCases.TC007_EndToEndTest - -------------------------------------------------------------------------
+11:42:07.563 [main] INFO  TestCases.TC001_AccountRegistrationTest - *-*-*-*-* Starting TC001_AccountRegistrationTest *-*-*-*-*
+11:42:08.230 [main] INFO  TestCases.TC001_AccountRegistrationTest - Clicked On MyAccount
+11:42:08.673 [main] INFO  TestCases.TC001_AccountRegistrationTest - Clicked On Register
+11:42:08.675 [main] INFO  TestCases.TC001_AccountRegistrationTest - Providing Customer Details
+11:42:10.109 [main] INFO  TestCases.TC001_AccountRegistrationTest - Validating Expected Message
+11:42:10.149 [main] INFO  TestCases.TC001_AccountRegistrationTest - Confirmation Message: Your Account Has Been Created!
+11:42:10.175 [main] INFO  TestCases.TC001_AccountRegistrationTest - *-*-*-*-* Finished TC001_AccountRegistrationTest *-*-*-*-*
+11:42:10.175 [main] INFO  TestCases.TC001_AccountRegistrationTest - -------------------------------------------------------------------------
+11:42:12.135 [main] INFO  TestCases.TC002_LoginTest - *-*-*-*-*-* Starting TC002_LoginTest *-*-*-*-*-*
+11:42:12.724 [main] INFO  TestCases.TC002_LoginTest - Clicked On MyAccount
+11:42:12.991 [main] INFO  TestCases.TC002_LoginTest - Clicked On Login
+11:42:12.993 [main] INFO  TestCases.TC002_LoginTest - Filling Out Valid Login Details
+11:42:13.203 [main] INFO  TestCases.TC002_LoginTest - Clicked On Login_Button
+11:42:14.132 [main] INFO  TestCases.TC002_LoginTest - *-*-*-*-*-* Finished TC002_LoginTest *-*-*-*-*-*
+11:42:14.132 [main] INFO  TestCases.TC002_LoginTest - -------------------------------------------------------------------------
+11:42:16.017 [main] INFO  TestCases.TC003_DDTTest - *-*-*-*-*-* Starting TC003_DDTTesting *-*-*-*-*-*
+11:42:16.096 [main] INFO  TestCases.TC003_DDTTest - Clicked On MyAccount
+11:42:16.377 [main] INFO  TestCases.TC003_DDTTest - Clicked On Login
+11:42:16.377 [main] INFO  TestCases.TC003_DDTTest - Filling Out validLogin Details
+11:42:16.647 [main] INFO  TestCases.TC003_DDTTest - Clicked On Login_Button
+11:42:18.000 [main] INFO  TestCases.TC003_DDTTest - *-*-*-*-*-* Finished TC003_DDTTesting *-*-*-*-*-*
+11:42:18.000 [main] INFO  TestCases.TC003_DDTTest - -------------------------------------------------------------------------
+11:42:18.002 [main] INFO  TestCases.TC003_DDTTest - *-*-*-*-*-* Starting TC003_DDTTesting *-*-*-*-*-*
+11:42:18.050 [main] INFO  TestCases.TC003_DDTTest - Clicked On MyAccount
+11:42:18.358 [main] INFO  TestCases.TC003_DDTTest - Clicked On Login
+11:42:18.359 [main] INFO  TestCases.TC003_DDTTest - Filling Out validLogin Details
+11:42:18.548 [main] INFO  TestCases.TC003_DDTTest - Clicked On Login_Button
+11:42:19.804 [main] INFO  TestCases.TC003_DDTTest - *-*-*-*-*-* Finished TC003_DDTTesting *-*-*-*-*-*
+11:42:19.804 [main] INFO  TestCases.TC003_DDTTest - -------------------------------------------------------------------------
+11:42:19.809 [main] INFO  TestCases.TC003_DDTTest - *-*-*-*-*-* Starting TC003_DDTTesting *-*-*-*-*-*
+11:42:19.884 [main] INFO  TestCases.TC003_DDTTest - Clicked On MyAccount
+11:42:20.159 [main] INFO  TestCases.TC003_DDTTest - Clicked On Login
+11:42:20.159 [main] INFO  TestCases.TC003_DDTTest - Filling Out invalidLogin Details
+11:42:20.932 [main] INFO  TestCases.TC003_DDTTest - Clicked On Login_Button
+11:42:31.078 [main] INFO  TestCases.TC003_DDTTest - *-*-*-*-*-* Finished TC003_DDTTesting *-*-*-*-*-*
+11:42:31.079 [main] INFO  TestCases.TC003_DDTTest - -------------------------------------------------------------------------
+11:42:31.088 [main] INFO  TestCases.TC003_DDTTest - *-*-*-*-*-* Starting TC003_DDTTesting *-*-*-*-*-*
+11:42:31.330 [main] INFO  TestCases.TC003_DDTTest - Clicked On MyAccount
+11:42:31.872 [main] INFO  TestCases.TC003_DDTTest - Clicked On Login
+11:42:31.873 [main] INFO  TestCases.TC003_DDTTest - Filling Out invalidLogin Details
+11:42:32.102 [main] INFO  TestCases.TC003_DDTTest - Clicked On Login_Button
+11:42:42.852 [main] INFO  TestCases.TC003_DDTTest - *-*-*-*-*-* Finished TC003_DDTTesting *-*-*-*-*-*
+11:42:42.853 [main] INFO  TestCases.TC003_DDTTest - -------------------------------------------------------------------------
+11:42:42.856 [main] INFO  TestCases.TC003_DDTTest - *-*-*-*-*-* Starting TC003_DDTTesting *-*-*-*-*-*
+11:42:42.965 [main] INFO  TestCases.TC003_DDTTest - Clicked On MyAccount
+11:42:43.456 [main] INFO  TestCases.TC003_DDTTest - Clicked On Login
+11:42:43.457 [main] INFO  TestCases.TC003_DDTTest - Filling Out invalidLogin Details
+11:42:43.851 [main] INFO  TestCases.TC003_DDTTest - Clicked On Login_Button
+11:42:54.571 [main] INFO  TestCases.TC003_DDTTest - *-*-*-*-*-* Finished TC003_DDTTesting *-*-*-*-*-*
+11:42:54.572 [main] INFO  TestCases.TC003_DDTTest - -------------------------------------------------------------------------
+11:42:54.574 [main] INFO  TestCases.TC003_DDTTest - *-*-*-*-*-* Starting TC003_DDTTesting *-*-*-*-*-*
+11:42:54.957 [main] INFO  TestCases.TC003_DDTTest - Clicked On MyAccount
+11:42:55.813 [main] INFO  TestCases.TC003_DDTTest - Clicked On Login
+11:42:55.813 [main] INFO  TestCases.TC003_DDTTest - Filling Out invalidLogin Details
+11:42:56.638 [main] INFO  TestCases.TC003_DDTTest - Clicked On Login_Button
+11:43:06.744 [main] INFO  TestCases.TC003_DDTTest - *-*-*-*-*-* Finished TC003_DDTTesting *-*-*-*-*-*
+11:43:06.748 [main] INFO  TestCases.TC003_DDTTest - -------------------------------------------------------------------------
+11:43:09.887 [main] INFO  TestCases.TC004_SearchingTest - *-*-*-*-* Starting TC004_SearchingTest *-*-*-*-*
+11:43:09.887 [main] INFO  TestCases.TC004_SearchingTest - Searching for product as mentioned by Devlopers
+11:43:10.471 [main] INFO  TestCases.TC004_SearchingTest - SearchediPhone
+11:43:10.471 [main] INFO  TestCases.TC004_SearchingTest - *-*-*-*-* Finishing TC004_SearchingTest *-*-*-*-*
+11:43:10.471 [main] INFO  TestCases.TC004_SearchingTest - -------------------------------------------------------------------------
+11:43:12.586 [main] INFO  TestCases.TC005_AddToCartTest - *-*-*-*-* Starting TC005_AddToCartTest *-*-*-*-*
+11:43:12.587 [main] INFO  TestCases.TC005_AddToCartTest - Searching for product as mentioned by Devlopers
+11:43:12.952 [main] INFO  TestCases.TC005_AddToCartTest - Adding To Cart
+11:43:13.264 [main] INFO  TestCases.TC005_AddToCartTest - *-*-*-*-* Finishing TC005_AddToCartTest *-*-*-*-*
+11:43:13.264 [main] INFO  TestCases.TC005_AddToCartTest - -------------------------------------------------------------------------
+11:43:15.353 [main] INFO  TestCases.TC006_CurrencyChangeTest - *-*-*-*-* Starting TC006_CurrencyChangeTest *-*-*-*-*
+11:43:15.358 [main] INFO  TestCases.TC006_CurrencyChangeTest - Checking Euro Currency
+11:43:16.012 [main] INFO  TestCases.TC006_CurrencyChangeTest - Checking Pound Currency
+11:43:16.581 [main] INFO  TestCases.TC006_CurrencyChangeTest - Checking USD Currency
+11:43:17.133 [main] INFO  TestCases.TC006_CurrencyChangeTest - *-*-*-*-* Finishing TC006_CurrencyChangeTest *-*-*-*-*
+11:43:17.133 [main] INFO  TestCases.TC006_CurrencyChangeTest - -------------------------------------------------------------------------
+11:43:19.096 [main] INFO  TestCases.TC007_EndToEndTest - *-*-*-*-* Starting TC007_EndToEndTest *-*-*-*-*
+11:43:19.097 [main] INFO  TestCases.TC007_EndToEndTest - Registering Customer
+11:43:19.172 [main] INFO  TestCases.TC007_EndToEndTest - Clicked On MyAccount
+11:43:19.595 [main] INFO  TestCases.TC007_EndToEndTest - Clicked On Register
+11:43:19.596 [main] INFO  TestCases.TC007_EndToEndTest - Providing Customer Details
+11:43:19.751 [main] INFO  TestCases.TC007_EndToEndTest - Registering Customer with this mail--->PJOvZBH@gmail.com
+11:43:19.751 [main] INFO  TestCases.TC007_EndToEndTest - PassWord is--->106quk
+11:43:20.873 [main] INFO  TestCases.TC007_EndToEndTest - Validating Expected Message
+11:43:20.907 [main] INFO  TestCases.TC007_EndToEndTest - Confirmation Message: Your Account Has Been Created!
+11:43:20.921 [main] INFO  TestCases.TC007_EndToEndTest - LoggingOut Customer
+11:43:21.333 [main] INFO  TestCases.TC007_EndToEndTest - Logging in with same credential that has been just used while Regestring
+11:43:21.372 [main] INFO  TestCases.TC007_EndToEndTest - Clicked On MyAccount
+11:43:21.673 [main] INFO  TestCases.TC007_EndToEndTest - Clicked On Login
+11:43:21.673 [main] INFO  TestCases.TC007_EndToEndTest - Filling Login Details
+11:43:21.887 [main] INFO  TestCases.TC007_EndToEndTest - Clicked On Login_Button
+11:43:22.715 [main] INFO  TestCases.TC007_EndToEndTest - Login Successfull
+11:43:22.716 [main] INFO  TestCases.TC007_EndToEndTest - Now Searching For Product Which is Available
+11:43:22.716 [main] INFO  TestCases.TC007_EndToEndTest - Searching for product as mentioned by Devlopers
+11:43:23.093 [main] INFO  TestCases.TC007_EndToEndTest - SearchediPhone
+11:43:23.115 [main] INFO  TestCases.TC007_EndToEndTest - Adding To Cart
+11:43:23.443 [main] INFO  TestCases.TC007_EndToEndTest - Now Checking Out The Product selected
+11:43:26.424 [main] INFO  TestCases.TC007_EndToEndTest - *-*-*-*-* Finishing TC007_EndToEndTest *-*-*-*-*
+11:43:26.424 [main] INFO  TestCases.TC007_EndToEndTest - -------------------------------------------------------------------------
+11:43:28.746 [main] INFO  TestCases.TC008_WishListTest - *-*-*-*-*-* Starting TC002_LoginTest *-*-*-*-*-*
+11:43:28.746 [main] INFO  TestCases.TC008_WishListTest - Before Adding Anything to wishList we Have to loggin to the website
+11:43:29.204 [main] INFO  TestCases.TC008_WishListTest - Clicked On MyAccount
+11:43:29.455 [main] INFO  TestCases.TC008_WishListTest - Clicked On Login
+11:43:29.456 [main] INFO  TestCases.TC008_WishListTest - Filling Out Valid Login Details
+11:43:29.660 [main] INFO  TestCases.TC008_WishListTest - Clicked On Login_Button
+11:43:30.545 [main] INFO  TestCases.TC008_WishListTest - Searching ForiPhone
