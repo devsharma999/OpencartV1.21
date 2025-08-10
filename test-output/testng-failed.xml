@@ -9,17 +9,17 @@
     <parameter name="browser" value="chrome"/>
     <groups>
       <run>
-        <include name="tc008"/>
+        <include name="tc009"/>
       </run>
     </groups>
     <classes>
-      <class name="TestCases.TC008_WishListTest">
+      <class name="TestCases.TC009_HoverMenuNavigationTest">
         <methods>
           <include name="teardown"/>
-          <include name="wishListTesting"/>
           <include name="setUp"/>
+          <include name="navigationTest"/>
         </methods>
-      </class> <!-- TestCases.TC008_WishListTest -->
+      </class> <!-- TestCases.TC009_HoverMenuNavigationTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

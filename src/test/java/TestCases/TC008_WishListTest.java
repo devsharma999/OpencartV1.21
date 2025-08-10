@@ -9,6 +9,7 @@ import PageObjets.MyAccountPage;
 import PageObjets.ResultPage;
 import PageObjets.WishListPage;
 import TestBase.BaseTest;
+import Utilities.SepratorUtility;
 
 public class TC008_WishListTest extends BaseTest {
 	
@@ -49,6 +50,8 @@ public class TC008_WishListTest extends BaseTest {
 	rp.clickWishList();
 	WishListPage wlp = new WishListPage(driver);
 	Assert.assertTrue(wlp.confirmationWishList(product),"ProductHasNot Been Added To WishList");
+	logger.info("*-*-*-*-* Finishing TC008_WishListTest *-*-*-*-*");
+	SepratorUtility.logTestSeparator(logger);
 	
 }
 }

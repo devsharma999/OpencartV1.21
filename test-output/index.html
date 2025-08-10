@@ -103,7 +103,7 @@
                     <div class="method-list-content passed suite-Master_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master_Suite" title="TestCases.TC008_WishListTest" class="method navigator-link" hash-for-method="wishListTesting">wishListTesting</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Master_Suite" title="TestCases.TC009_HoverMenuNavigationTest" class="method navigator-link" hash-for-method="navigationTest">navigationTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Master_Suite -->
@@ -121,14 +121,14 @@
           <div class="suite-Master_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">TestCases.TC008_WishListTest</span>
+              <span class="class-name">TestCases.TC009_HoverMenuNavigationTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="wishListTesting">
-                  </a> <!-- wishListTesting -->
-                  <span class="method-name">wishListTesting</span>
+                  <a name="navigationTest">
+                  </a> <!-- navigationTest -->
+                  <span class="method-name">navigationTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -145,12 +145,12 @@
 &lt;suite name=&quot;Master Suite&quot;&gt;
   &lt;groups&gt;
     &lt;run&gt;
-      &lt;include name=&quot;tc008&quot;/&gt;
+      &lt;include name=&quot;tc009&quot;/&gt;
     &lt;/run&gt;
   &lt;/groups&gt;
   &lt;groups&gt;
     &lt;run&gt;
-      &lt;include name=&quot;tc008&quot;/&gt;
+      &lt;include name=&quot;tc009&quot;/&gt;
     &lt;/run&gt;
   &lt;/groups&gt;
   &lt;listeners&gt;
@@ -158,7 +158,7 @@
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;4&quot; name=&quot;Test&quot;&gt;
     &lt;parameter name=&quot;OS&quot; value=&quot;Window&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;TestCases.TC001_AccountRegistrationTest&quot;/&gt;
       &lt;class name=&quot;TestCases.TC002_LoginTest&quot;/&gt;
@@ -168,6 +168,7 @@
       &lt;class name=&quot;TestCases.TC006_CurrencyChangeTest&quot;/&gt;
       &lt;class name=&quot;TestCases.TC007_EndToEndTest&quot;/&gt;
       &lt;class name=&quot;TestCases.TC008_WishListTest&quot;/&gt;
+      &lt;class name=&quot;TestCases.TC009_HoverMenuNavigationTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Master Suite --&gt;
@@ -181,7 +182,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (8 classes)</span>
+                <span class="test-name">Test (9 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -192,10 +193,10 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">tc008</span>
+              <span class="test-group-name">tc009</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">wishListTesting</span>
+                <span class="method-in-group-name">navigationTest</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -217,14 +218,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'wishListTesting')
-data.setCell(0, 2, 'TestCases.TC008_WishListTest')
-data.setCell(0, 3, 5726);
+data.setCell(0, 1, 'navigationTest')
+data.setCell(0, 2, 'TestCases.TC009_HoverMenuNavigationTest')
+data.setCell(0, 3, 633);
 window.suiteTableData['Master_Suite']= { tableData: data, tableDiv: 'times-div-Master_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 633 ms</span>
               <div id="times-div-Master_Suite">
               </div> <!-- times-div-Master_Suite -->
             </div> <!-- times-div -->
@@ -239,7 +240,7 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Master_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">7 ignored methods</span>
+            <span class="header-content">8 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
@@ -253,6 +254,13 @@ return data;
               <span class="ignored-class-name">TestCases.TC005_AddToCartTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">addtoCartVerfication</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.TC008_WishListTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">wishListTesting</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -299,18 +307,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">TestCases.TC008_WishListTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">TestCases.TC009_HoverMenuNavigationTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUp(Window, chrome)</span>
+                <span class="method-name">setUp(Window, edge)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">wishListTesting</span>
-                <span class="method-start">3345 ms</span>
+                <span class="method-name">navigationTest</span>
+                <span class="method-start">3689 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">9095 ms</span>
+                <span class="method-start">4332 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

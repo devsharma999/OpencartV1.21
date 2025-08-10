@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="7" total="8" passed="1" failed="0" skipped="0">
+<testng-results ignored="8" total="9" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-09T11:37:25 IST" name="Master Suite" finished-at="2025-08-09T11:37:35 IST" duration-ms="9620">
+  <suite started-at="2025-08-10T12:04:17 IST" name="Master Suite" finished-at="2025-08-10T12:04:23 IST" duration-ms="5890">
     <groups>
-      <group name="tc008">
-        <method signature="TC008_WishListTest.wishListTesting()[pri:0, instance:TestCases.TC008_WishListTest@185a6e9]" name="wishListTesting" class="TestCases.TC008_WishListTest"/>
-      </group> <!-- tc008 -->
+      <group name="tc009">
+        <method signature="TC009_HoverMenuNavigationTest.navigationTest()[pri:0, instance:TestCases.TC009_HoverMenuNavigationTest@179ece50]" name="navigationTest" class="TestCases.TC009_HoverMenuNavigationTest"/>
+      </group> <!-- tc009 -->
     </groups>
-    <test started-at="2025-08-09T11:37:25 IST" name="Test" finished-at="2025-08-09T11:37:35 IST" duration-ms="9620">
-      <class name="TestCases.TC008_WishListTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC008_WishListTest@185a6e9]" started-at="2025-08-09T11:37:25 IST" name="setUp" finished-at="2025-08-09T11:37:28 IST" duration-ms="3331" status="PASS">
+    <test started-at="2025-08-10T12:04:17 IST" name="Test" finished-at="2025-08-10T12:04:23 IST" duration-ms="5890">
+      <class name="TestCases.TC009_HoverMenuNavigationTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC009_HoverMenuNavigationTest@179ece50]" started-at="2025-08-10T12:04:17 IST" name="setUp" finished-at="2025-08-10T12:04:21 IST" duration-ms="3681" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -19,22 +19,22 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="wishListTesting()[pri:0, instance:TestCases.TC008_WishListTest@185a6e9]" started-at="2025-08-09T11:37:28 IST" name="wishListTesting" finished-at="2025-08-09T11:37:34 IST" duration-ms="5726" status="PASS">
+        <test-method signature="navigationTest()[pri:0, instance:TestCases.TC009_HoverMenuNavigationTest@179ece50]" started-at="2025-08-10T12:04:21 IST" name="navigationTest" finished-at="2025-08-10T12:04:22 IST" duration-ms="633" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- wishListTesting -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.TC008_WishListTest@185a6e9]" started-at="2025-08-09T11:37:34 IST" name="teardown" finished-at="2025-08-09T11:37:35 IST" duration-ms="292" status="PASS">
+        </test-method> <!-- navigationTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.TC009_HoverMenuNavigationTest@179ece50]" started-at="2025-08-10T12:04:22 IST" name="teardown" finished-at="2025-08-10T12:04:23 IST" duration-ms="1287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- TestCases.TC008_WishListTest -->
+      </class> <!-- TestCases.TC009_HoverMenuNavigationTest -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>

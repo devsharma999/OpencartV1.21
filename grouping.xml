@@ -7,12 +7,12 @@
 
 <groups>
 	<run>
-	<include name = "tc008"/>
+	<include name = "tc009"/>
 	</run>
 	</groups>
   <test name="Test" thread-count ="4" >  
   <parameter name = "OS" value = "Window"></parameter>
-    <parameter name = "browser" value = "chrome"></parameter>
+    <parameter name = "browser" value = "edge"></parameter>
     <classes>
       <class name="TestCases.TC001_AccountRegistrationTest"/>
       <class name="TestCases.TC002_LoginTest"/>
@@ -22,6 +22,8 @@
        	<class name="TestCases.TC006_CurrencyChangeTest"/>
          <class name="TestCases.TC007_EndToEndTest"/>
          <class name="TestCases.TC008_WishListTest"/>
+         <class name="TestCases.TC009_HoverMenuNavigationTest"/>
+
 
 
 

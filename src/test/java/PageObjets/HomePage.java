@@ -1,6 +1,7 @@
 package PageObjets;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
 import TestBase.BasePage;
@@ -11,7 +12,7 @@ public class HomePage extends BasePage {
 		super(driver);
 	}
 
-	@FindBy(xpath = "//span[normalize-space()='My Account']")         
+	@FindBy(xpath = "//span[normalize-space()='My Account']")
 	WebElement btn_myacc;
 	@FindBy(xpath = "//a[normalize-space()='Register']")
 	WebElement btn_register;
@@ -27,8 +28,13 @@ public class HomePage extends BasePage {
 	WebElement btn_usd;
 	@FindBy(xpath = "//button[normalize-space()='£Pound Sterling']")
 	WebElement btn_pound;
+	@FindBy(xpath = "//a[normalize-space()='Desktops']")
+	WebElement hover_Desktop;
+	@FindBy(xpath = "//a[normalize-space()='Mac (1)']")
+	WebElement btn_Mac;
+	@FindBy(xpath = "//h2[normalize-space()='Mac']")
+	WebElement msgConfirmation;
 
-	
 	public void clickmyacc() {
 		btn_myacc.click();
 	}
@@ -62,6 +68,25 @@ public class HomePage extends BasePage {
 		btn_euro.click();
 	}
 
+	public void clickMac() {
+		btn_Mac.click();
+	}
+
+	public boolean confirmationDesktopHover() {
+		try {
+			String con = msgConfirmation.getText();
+			return con.equalsIgnoreCase("Mac");
+		} catch (Exception e) {
+			return false;
+		}
+	}
+
+	public void hoverDesktop() {
+		Actions ac = new Actions(driver);
+		ac.moveToElement(hover_Desktop).build().perform();
+
+	}
+
 	public boolean confirmationSearch(String product) {
 		try {
 			String dynamicXPath = String.format("//h1[normalize-space()='Search - %s']", product);
@@ -74,32 +99,32 @@ public class HomePage extends BasePage {
 			return false;
 		}
 	}
-	public boolean confirmationCurrency(String currency) {
-	    String symbol = "";
-	    switch (currency.toLowerCase()) {
-	        case "pound":
-	            symbol = "\u00A3";
-	            break;
-	        case "usd":
-	            symbol = "\u0024";
-	            break;
-	        case "euro":
-	            symbol = "\u20AC"; // Correct Unicode for €
-	            break;
-	        default:
-	            System.out.println("Unsupported currency: " + currency);
-	            return false;
-	    }
 
-	    try {
-	        String dynamicXpath = String.format("//strong[contains(normalize-space(),'%s')]", symbol);
-	        WebElement confirmingCurrency = driver.findElement(By.xpath(dynamicXpath));
-	        String fc = confirmingCurrency.getText().trim();
-	        return fc.contains(symbol); // or use fc.equals(symbol) if exact match is expected
-	    } catch (Exception e) {
-	        System.out.println("Confirmation element not found or text mismatch: " + e.getMessage());
-	        return false;
-	    }
+	public boolean confirmationCurrency(String currency) {
+		String symbol = "";
+		switch (currency.toLowerCase()) {
+		case "pound":
+			symbol = "\u00A3";
+			break;
+		case "usd":
+			symbol = "\u0024";
+			break;
+		case "euro":
+			symbol = "\u20AC"; // Correct Unicode for €
+			break;
+		default:
+			System.out.println("Unsupported currency: " + currency);
+			return false;
+		}
+
+		try {
+			String dynamicXpath = String.format("//strong[contains(normalize-space(),'%s')]", symbol);
+			WebElement confirmingCurrency = driver.findElement(By.xpath(dynamicXpath));
+			String fc = confirmingCurrency.getText().trim();
+			return fc.contains(symbol); // or use fc.equals(symbol) if exact match is expected
+		} catch (Exception e) {
+			System.out.println("Confirmation element not found or text mismatch: " + e.getMessage());
+			return false;
+		}
 	}
 }
-
