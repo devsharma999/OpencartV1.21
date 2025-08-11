@@ -1,5 +1,10 @@
-12:06:46.272 [main] INFO  TestCases.TC009_HoverMenuNavigationTest - *-*-*-*-*-* Starting TC002_LoginTest *-*-*-*-*-*
-12:06:46.280 [main] INFO  TestCases.TC009_HoverMenuNavigationTest - Hovering To Desktop
-12:06:47.267 [main] INFO  TestCases.TC009_HoverMenuNavigationTest - Clicked on Mac
-12:06:47.289 [main] INFO  TestCases.TC009_HoverMenuNavigationTest - *-*-*-*-* Finishing TC009_HoverMenuNavigationTest *-*-*-*-*
-12:06:47.290 [main] INFO  TestCases.TC009_HoverMenuNavigationTest - -------------------------------------------------------------------------
+12:45:23.684 [main] INFO  TestCases.TC009_HoverMenuNavigationTest - *-*-*-*-*-* Starting TC002_LoginTest *-*-*-*-*-*
+12:45:23.692 [main] INFO  TestCases.TC009_HoverMenuNavigationTest - Hovering To Desktop
+12:45:24.568 [main] INFO  TestCases.TC009_HoverMenuNavigationTest - Clicked on Mac
+12:45:24.597 [main] INFO  TestCases.TC009_HoverMenuNavigationTest - *-*-*-*-* Finishing TC009_HoverMenuNavigationTest *-*-*-*-*
+12:45:24.597 [main] INFO  TestCases.TC009_HoverMenuNavigationTest - -------------------------------------------------------------------------
+12:45:28.080 [main] INFO  TestCases.TC010_AddToCompareTest - *-*-*-*-* Starting TC010_AddToCompareTest *-*-*-*-*
+12:45:28.080 [main] INFO  TestCases.TC010_AddToCompareTest - clicked on Search SettingProduct
+12:45:28.569 [main] INFO  TestCases.TC010_AddToCompareTest - Clicking Add to comparison
+12:45:28.638 [main] INFO  TestCases.TC010_AddToCompareTest - Searching for another Product To compare
+12:45:29.818 [main] INFO  TestCases.TC010_AddToCompareTest - Comparison Successfull

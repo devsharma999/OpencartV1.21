@@ -20,6 +20,8 @@
 			<class name="TestCases.TC007_EndToEndTest"/>
 		<class name="TestCases.TC008_WishListTest"/>
 		<class name="TestCases.TC009_HoverMenuNavigationTest"/>
+				<class name="TestCases.TC010_AddToCompareTest"/>
+
 
 
     </classes>
@@ -41,6 +43,7 @@
 			<class name="TestCases.TC007_EndToEndTest"/>
 		<class name="TestCases.TC008_WishListTest"/>
 		<class name="TestCases.TC009_HoverMenuNavigationTest"/>
+		<class name="TestCases.TC010_AddToCompareTest"/>
 
 
     </classes>

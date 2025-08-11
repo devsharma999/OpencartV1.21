@@ -6,20 +6,20 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <parameter name="OS" value="Window"/>
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="edge"/>
     <groups>
       <run>
-        <include name="tc009"/>
+        <include name="tc010"/>
       </run>
     </groups>
     <classes>
-      <class name="TestCases.TC009_HoverMenuNavigationTest">
+      <class name="TestCases.TC010_AddToCompareTest">
         <methods>
           <include name="teardown"/>
+          <include name="addtocompareTest"/>
           <include name="setUp"/>
-          <include name="navigationTest"/>
         </methods>
-      </class> <!-- TestCases.TC009_HoverMenuNavigationTest -->
+      </class> <!-- TestCases.TC010_AddToCompareTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

@@ -34,11 +34,15 @@ public class HomePage extends BasePage {
 	WebElement btn_Mac;
 	@FindBy(xpath = "//h2[normalize-space()='Mac']")
 	WebElement msgConfirmation;
+	
 
 	public void clickmyacc() {
 		btn_myacc.click();
 	}
 
+	public void clickSearch() {
+		txt_search.click();
+	}
 	public void clickregister() {
 		btn_register.click();
 	}
@@ -71,7 +75,16 @@ public class HomePage extends BasePage {
 	public void clickMac() {
 		btn_Mac.click();
 	}
+	
+	public void clearSearchbar() {
+		Actions ac = new Actions(driver);
+		ac.keyDown(Keys.CONTROL)
+		  .sendKeys(Keys.BACK_SPACE)
+		  .keyUp(Keys.CONTROL).perform();
 
+	}
+
+	
 	public boolean confirmationDesktopHover() {
 		try {
 			String con = msgConfirmation.getText();
@@ -128,3 +141,4 @@ public class HomePage extends BasePage {
 		}
 	}
 }
+
